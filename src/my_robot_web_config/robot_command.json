@@ -1,0 +1,13 @@
+{
+  "command": "go_home",
+  "target": "home",
+  "source": "web_admin",
+  "status": "sent",
+  "created_at": "2026-07-09T07:49:36",
+  "pose": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 1.0
+  }
+}

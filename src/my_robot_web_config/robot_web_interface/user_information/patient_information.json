@@ -1,0 +1,318 @@
+{
+  "updated_at": "2026-06-28T15:08:02",
+  "patient_count": 4,
+  "queue_count": 8,
+  "room_destinations": {
+    "101": {
+      "x": 2.5,
+      "y": 1.2,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "201": {
+      "x": 3.7419395128436816,
+      "y": -1.2282360383552429,
+      "z": -0.2857263847076304,
+      "w": 1.0
+    },
+    "301": {
+      "x": 4.8,
+      "y": -0.7,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "401": {
+      "x": 6.0,
+      "y": -1.5,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "501": {
+      "x": 7.1,
+      "y": -2.3,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "110": {
+      "x": 1.0,
+      "y": 2.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "601": {
+      "x": 1.0,
+      "y": 1.0,
+      "theta": 0.57,
+      "z": 0.281157451295294,
+      "w": 0.9596616526574011
+    },
+    "A1": {
+      "x": -1.8,
+      "y": 1.42,
+      "theta": 0.28,
+      "z": 0.1395431146442365,
+      "w": 0.9902159962126371
+    },
+    "A2": {
+      "x": -2.14,
+      "y": -0.6,
+      "theta": 0.19,
+      "z": 0.0948571686345573,
+      "w": 0.9954908927552453
+    },
+    "A3": {
+      "x": -1.46,
+      "y": -2.13,
+      "theta": 0.63,
+      "z": 0.30981647122760286,
+      "w": 0.9507963789140532
+    },
+    "A4": {
+      "x": 3.74,
+      "y": -1.6,
+      "theta": 0.67,
+      "z": -0.6337068920672351,
+      "w": 0.944410309632643
+    },
+    "A5": {
+      "x": 1.24,
+      "y": -2.85,
+      "theta": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    }
+  },
+  "patients": {
+    "0123456789": {
+      "patient_name": "Tèo",
+      "phone": "0123456789",
+      "queue_number": 12,
+      "order_label": "STT 12",
+      "department": "Khoa Tim mạch",
+      "room_label": "201",
+      "symptoms": "Đau ngực",
+      "appointment_date": "2026-04-22",
+      "appointment_time": "08:00",
+      "created_at": "2026-04-22T08:57:58",
+      "updated_at": "2026-04-22T08:57:58",
+      "matched_phrases": [
+        "Đau ngực"
+      ],
+      "destination_pose": {
+        "x": 3.6,
+        "y": 0.3,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": true
+      }
+    },
+    "12": {
+      "patient_name": "hoang",
+      "phone": "12",
+      "queue_number": 1,
+      "order_label": "STT 1",
+      "department": "115",
+      "room_label": "10",
+      "symptoms": "Đau đầu",
+      "appointment_date": "2026-04-27",
+      "appointment_time": "08:00",
+      "created_at": "2026-04-27T14:26:59",
+      "updated_at": "2026-04-27T14:26:59",
+      "matched_phrases": [
+        "Đau đầu"
+      ],
+      "destination_pose": {
+        "x": 0.0,
+        "y": 0.0,
+        "theta": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": false
+      }
+    },
+    "1": {
+      "patient_name": "munh",
+      "phone": "1",
+      "queue_number": 1,
+      "order_label": "STT 1",
+      "department": "chuyên khoa Thần kinh",
+      "room_label": "110",
+      "symptoms": "Sốt, đau đầu",
+      "appointment_date": "2026-06-10",
+      "appointment_time": "08:00",
+      "created_at": "2026-06-10T16:03:40",
+      "updated_at": "2026-06-10T16:03:40",
+      "matched_phrases": [
+        "đau đầu"
+      ],
+      "destination_pose": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": false
+      }
+    },
+    "123": {
+      "patient_name": "Nguyen a",
+      "phone": "123",
+      "queue_number": 6,
+      "order_label": "STT 6",
+      "department": "Khoa Ngoại",
+      "room_label": "A5",
+      "symptoms": "Bong gân",
+      "appointment_date": "2026-06-30",
+      "appointment_time": "08:00",
+      "created_at": "2026-06-28T15:08:02",
+      "updated_at": "2026-06-28T15:08:02",
+      "matched_phrases": [
+        "Bong gân"
+      ],
+      "destination_pose": {
+        "x": 7.53,
+        "y": 1.23,
+        "z": 0.470625888171158,
+        "w": 0.8823328586101215,
+        "configured": true
+      }
+    }
+  },
+  "queue_index": {
+    "11": {
+      "queue_number": 11,
+      "order_label": "STT 11",
+      "patient_phone": "0123456789",
+      "patient_name": "Phu",
+      "room_label": "101",
+      "department": "Khoa Noi tong quat",
+      "symptoms": "sot",
+      "destination_pose": {
+        "x": 2.5,
+        "y": 1.2,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": true
+      },
+      "updated_at": "2026-04-21T22:45:41"
+    },
+    "12": {
+      "queue_number": 12,
+      "order_label": "STT 12",
+      "patient_phone": "0123456789",
+      "patient_name": "Tèo",
+      "room_label": "A5",
+      "department": "Khoa Tim mạch",
+      "symptoms": "Đau ngực",
+      "destination_pose": {
+        "x": 1.24,
+        "y": -2.85,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": true
+      },
+      "updated_at": "2026-04-22T08:57:58"
+    },
+    "1": {
+      "queue_number": 1,
+      "order_label": "STT 1",
+      "patient_phone": "1",
+      "patient_name": "munh",
+      "room_label": "110",
+      "department": "chuyên khoa Thần kinh",
+      "symptoms": "Sốt, đau đầu",
+      "destination_pose": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "configured": false
+      },
+      "updated_at": "2026-06-10T16:03:40"
+    },
+    "2": {
+      "queue_number": 2,
+      "order_label": "STT 2",
+      "patient_phone": "123",
+      "patient_name": "Nguyen Hieu",
+      "room_label": "601",
+      "department": "Xương khớp",
+      "symptoms": "Đau khớp",
+      "destination_pose": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.281157451295294,
+        "w": 0.9596616526574011,
+        "configured": true
+      },
+      "updated_at": "2026-06-19T21:57:52"
+    },
+    "3": {
+      "queue_number": 3,
+      "order_label": "STT 3",
+      "patient_phone": "123",
+      "patient_name": "Nguyen Hieu",
+      "room_label": "A4",
+      "department": "Khoa Tiêu hóa",
+      "symptoms": "Đau bụng",
+      "destination_pose": {
+        "x": 3.74,
+        "y": -1.6,
+        "z": 0.32876916987390314,
+        "w": 0.944410309632643,
+        "configured": true
+      },
+      "updated_at": "2026-06-28T15:06:13"
+    },
+    "4": {
+      "queue_number": 4,
+      "order_label": "STT 4",
+      "patient_phone": "123",
+      "patient_name": "Nguyen",
+      "room_label": "A1",
+      "department": "Khoa Nội tổng quát",
+      "symptoms": "Chóng mặt",
+      "destination_pose": {
+        "x": -1.8,
+        "y": 1.42,
+        "z": 0.1395431146442365,
+        "w": 0.9902159962126371,
+        "configured": true
+      },
+      "updated_at": "2026-06-28T15:07:13"
+    },
+    "5": {
+      "queue_number": 5,
+      "order_label": "STT 5",
+      "patient_phone": "123",
+      "patient_name": "Nguyen a",
+      "room_label": "A3",
+      "department": "Khoa Hô hấp",
+      "symptoms": "Ho ra máu",
+      "destination_pose": {
+        "x": -1.46,
+        "y": -2.13,
+        "z": 0.30981647122760286,
+        "w": 0.9507963789140532,
+        "configured": true
+      },
+      "updated_at": "2026-06-28T15:07:44"
+    },
+    "6": {
+      "queue_number": 6,
+      "order_label": "STT 6",
+      "patient_phone": "123",
+      "patient_name": "Nguyen a",
+      "room_label": "A5",
+      "department": "Khoa Ngoại",
+      "symptoms": "Bong gân",
+      "destination_pose": {
+        "x": 7.53,
+        "y": 1.23,
+        "z": 0.470625888171158,
+        "w": 0.8823328586101215,
+        "configured": true
+      },
+      "updated_at": "2026-06-28T15:08:02"
+    }
+  }
+}

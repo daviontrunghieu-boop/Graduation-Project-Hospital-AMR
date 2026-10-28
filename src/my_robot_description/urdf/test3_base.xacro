@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Test32">
+  <link
+    name="base_footprint_link">
+    <inertial>
+      <origin
+        xyz="-0.057023894336767 0.000320793320761792 0.394983107885768"
+        rpy="0 0 0" />
+      <mass
+        value="7.97077901603284" />
+      <inertia
+        ixx="0.564703016591897"
+        ixy="-0.000263158439860758"
+        ixz="0.00421618336070412"
+        iyy="0.506646564605232"
+        iyz="2.7109853362724E-05"
+        izz="0.138133376970923" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/base_footprint_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/base_footprint_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="MWR_Link">
+    <inertial>
+      <origin
+        xyz="-3.61866692166757E-07 0.00169749189013724 -2.05963571531242E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.466851252756426" />
+      <inertia
+        ixx="0.00044060625166746"
+        ixy="-3.2458431634984E-09"
+        ixz="9.82786682125028E-09"
+        iyy="0.000814141386237763"
+        iyz="-1.84743702542368E-09"
+        izz="0.000440594578385447" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MWR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MWR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="MWR_Link_J"
+    type="continuous">
+    <origin
+      xyz="2.80251920257157E-05 -0.21677777864129 0.0599999999991945"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="MWR_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="MWL_Link">
+    <inertial>
+      <origin
+        xyz="-1.24067423001861E-12 -3.4632211287855E-05 -7.88480392088786E-13"
+        rpy="0 0 0" />
+      <mass
+        value="0.445537025884621" />
+      <inertia
+        ixx="0.00043646303054229"
+        ixy="1.2699950616518E-18"
+        ixz="-1.24198924934284E-08"
+        iyy="0.00080980686348029"
+        iyz="7.74774944680461E-19"
+        izz="0.000436448278520281" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MWL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MWL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="MWL_Link_J"
+    type="continuous">
+    <origin
+      xyz="0.000411754667072883 0.21635750120644 0.0600000000008103"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="MWL_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="CFR_Link">
+    <inertial>
+      <origin
+        xyz="0 -1.11022302462516E-16 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.0225801971976767" />
+      <inertia
+        ixx="4.27698207368044E-06"
+        ixy="4.30587632545263E-38"
+        ixz="-1.01562978102684E-38"
+        iyy="7.87603463265499E-06"
+        iyz="-1.19105784889192E-20"
+        izz="4.27698207368044E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CFR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CFR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="CFR_Link_J"
+    type="continuous">
+    <origin
+      xyz="0.12461582327956 -0.112925402759215 0.0265000000000104"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="CFR_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="CBR_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 -5.55111512312578E-17 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.0225801971976767" />
+      <inertia
+        ixx="4.27698207368044E-06"
+        ixy="4.30587632545263E-38"
+        ixz="-1.01562978102688E-38"
+        iyy="7.87603463265499E-06"
+        iyz="-1.18046993705124E-20"
+        izz="4.27698207368044E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CBR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CBR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="CBR_Link_J"
+    type="continuous">
+    <origin
+      xyz="-0.125382724524813 -0.112073290264085 0.0265000000000108"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="CBR_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="CFL_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 -1.11022302462516E-16 -4.44089209850063E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0225801971976767" />
+      <inertia
+        ixx="4.27698207368044E-06"
+        ixy="4.30587632545263E-38"
+        ixz="-1.01562978102684E-38"
+        iyy="7.87603463265499E-06"
+        iyz="-1.19105784889192E-20"
+        izz="4.27698207368045E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CFL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CFL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="CFL_Link_J"
+    type="continuous">
+    <origin
+      xyz="0.125382724525178 0.112073290264721 0.0265000000000095"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="CFL_Link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="CBL_Link">
+    <inertial>
+      <origin
+        xyz="2.22044604925031E-16 -1.11022302462516E-16 2.22044604925031E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0225801971976767" />
+      <inertia
+        ixx="4.27698207368044E-06"
+        ixy="4.30587632545263E-38"
+        ixz="-1.01562978102684E-38"
+        iyy="7.87603463265499E-06"
+        iyz="-1.19105784889192E-20"
+        izz="4.27698207368045E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CBL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/CBL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="CBL_Link_J"
+    type="continuous">
+    <origin
+      xyz="-0.124615823279196 0.112925402759852 0.0265000000000097"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="CBL_Link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="Lidar_Link">
+    <inertial>
+      <origin
+        xyz="0.0120605325163315 -0.000533080554789345 -0.0190152625446196"
+        rpy="0 0 0" />
+      <mass
+        value="0.0730815504750763" />
+      <inertia
+        ixx="1.95791676154068E-05"
+        ixy="-1.04522238629402E-07"
+        ixz="-4.28234102500603E-07"
+        iyy="2.4125809262463E-05"
+        iyz="9.34336092984886E-09"
+        izz="4.14174355505559E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/Lidar_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/Lidar_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lidar_Link_J"
+    type="fixed">
+    <origin
+      xyz="0.156005196504832 0.000235166703923095 0.22274999955924"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="Lidar_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="MPU_Link">
+    <inertial>
+      <origin
+        xyz="0.000548666975906498 6.86596336055834E-05 -0.00212070510127393"
+        rpy="0 0 0" />
+      <mass
+        value="0.000999898118986847" />
+      <inertia
+        ixx="2.50456299192788E-08"
+        ixy="-2.83087758630434E-14"
+        ixz="-2.69530310584251E-14"
+        iyy="1.2450495325116E-08"
+        iyz="-1.16343900762546E-14"
+        izz="3.063763531159E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MPU_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://my_robot_description/meshes/MPU_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="MPU_Link_J"
+    type="fixed">
+    <origin
+      xyz="0.069783287639144 -0.00100475995919391 0.179300000011291"
+      rpy="0 0 -0.00340845658018366" />
+    <parent
+      link="base_footprint_link" />
+    <child
+      link="MPU_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

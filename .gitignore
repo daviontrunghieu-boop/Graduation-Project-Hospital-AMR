@@ -1,0 +1,14 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.env
+.vscode/browse.vc.db
+.vscode/*.db
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.env

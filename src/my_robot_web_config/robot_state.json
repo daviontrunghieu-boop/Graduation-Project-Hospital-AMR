@@ -1,0 +1,10 @@
+{
+  "robot_name": "AURORA",
+  "status": "Đang về HOME",
+  "current_zone": "Đang di chuyển về HOME",
+  "battery_level": 88,
+  "queue_limit": 10,
+  "auto_dispatch": true,
+  "note": "Admin đã gửi lệnh HOME cho robot. File: /home/hieu/ros2_ws/src/my_robot_web_config/robot_command.json",
+  "updated_at": "2026-07-09T07:49:36"
+}

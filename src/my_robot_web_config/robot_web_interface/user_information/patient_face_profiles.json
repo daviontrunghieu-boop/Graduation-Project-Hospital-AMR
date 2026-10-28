@@ -1,0 +1,58 @@
+{
+  "0123456789": {
+    "patient_name": "Tèo",
+    "phone": "0123456789",
+    "updated_at": "2026-04-22T08:57:56",
+    "captures": [
+      {
+        "filename": "0123456789_20260421_221508.jpg",
+        "image_url": "/face-captures/0123456789_20260421_221508.jpg",
+        "captured_at": "2026-04-21T22:15:08",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "filename": "0123456789_20260421_223745.jpg",
+        "image_url": "/face-captures/0123456789_20260421_223745.jpg",
+        "captured_at": "2026-04-21T22:37:45",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "filename": "0123456789_20260421_223748.jpg",
+        "image_url": "/face-captures/0123456789_20260421_223748.jpg",
+        "captured_at": "2026-04-21T22:37:48",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "filename": "0123456789_20260421_224535.jpg",
+        "image_url": "/face-captures/0123456789_20260421_224535.jpg",
+        "captured_at": "2026-04-21T22:45:35",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "filename": "0123456789_20260422_085152.jpg",
+        "image_url": "/face-captures/0123456789_20260422_085152.jpg",
+        "captured_at": "2026-04-22T08:51:55",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "filename": "0123456789_20260422_085756.jpg",
+        "image_url": "/face-captures/0123456789_20260422_085756.jpg",
+        "captured_at": "2026-04-22T08:57:56",
+        "mime_type": "image/jpeg"
+      }
+    ]
+  },
+  "0987654321": {
+    "patient_name": "Tèo",
+    "phone": "0987654321",
+    "updated_at": "2026-04-22T08:56:59",
+    "captures": [
+      {
+        "filename": "0987654321_20260422_085659.jpg",
+        "image_url": "/face-captures/0987654321_20260422_085659.jpg",
+        "captured_at": "2026-04-22T08:56:59",
+        "mime_type": "image/jpeg"
+      }
+    ]
+  }
+}

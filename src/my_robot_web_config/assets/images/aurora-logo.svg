@@ -1,0 +1,18 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="auroraGlow" x1="70" y1="30" x2="650" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="auroraText" x1="130" y1="58" x2="575" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#155E75"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="14" width="692" height="192" rx="42" fill="white" fill-opacity="0.9"/>
+  <rect x="14" y="14" width="692" height="192" rx="42" stroke="url(#auroraGlow)" stroke-width="10"/>
+  <path d="M74 148C98 106 121 72 143 44C156 76 167 109 179 148H152L146 126H107L100 148H74ZM113 104H140C136 89 131 75 126 62C122 74 117 88 113 104Z" fill="url(#auroraGlow)"/>
+  <text x="212" y="104" fill="url(#auroraText)" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="10">AURORA</text>
+  <text x="214" y="144" fill="#0F766E" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="5">SMART HOSPITAL EXPERIENCE</text>
+</svg>

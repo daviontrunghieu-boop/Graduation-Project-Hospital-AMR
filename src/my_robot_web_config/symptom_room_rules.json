@@ -1,0 +1,37 @@
+[
+  {
+    "id": 3,
+    "symptom_keywords": "Sốt\nỚn lạnh\nMệt mỏi\n Chóng mặt\nMất ngủ",
+    "department": "Khoa Nội tổng quát",
+    "room_label": "A1",
+    "note": ""
+  },
+  {
+    "id": 4,
+    "symptom_keywords": "Đau ngực\nHồi hộp\nTim đập nhanh\nPhù chân\nHuyết áp cao",
+    "department": "Khoa Tim mạch",
+    "room_label": "A2",
+    "note": ""
+  },
+  {
+    "id": 5,
+    "symptom_keywords": "Ho khan\nHo có đờm\nKhò khè\nThở rít\nHo ra máu",
+    "department": "Khoa Hô hấp",
+    "room_label": "A3",
+    "note": ""
+  },
+  {
+    "id": 6,
+    "symptom_keywords": "Đau bụng\nBuồn nôn\nNôn ói\nTiêu chảy\nTáo bón",
+    "department": "Khoa Tiêu hóa",
+    "room_label": "A4",
+    "note": ""
+  },
+  {
+    "id": 7,
+    "symptom_keywords": "Chấn thương phần mềm\nVết thương hở\nBong gân\nGãy xương\nTrật khớp",
+    "department": "Khoa Ngoại",
+    "room_label": "A5",
+    "note": ""
+  }
+]

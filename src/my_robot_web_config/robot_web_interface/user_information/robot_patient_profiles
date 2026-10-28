@@ -1,0 +1,74 @@
+{
+  "updated_at": "2026-06-10T16:03:40",
+  "patient_count": 2,
+  "patients": {
+    "12": {
+      "patient_name": "hoang",
+      "phone": "12",
+      "updated_at": "2026-04-27T14:26:59",
+      "face_captures": [],
+      "face_capture_count": 0,
+      "latest_capture_at": "",
+      "latest_face_image_url": "",
+      "latest_appointment": {
+        "queue_number": 1,
+        "department": "115",
+        "room_label": "10",
+        "appointment_date": "2026-04-27",
+        "appointment_time": "08:00",
+        "symptoms": "Đau đầu",
+        "created_at": "2026-04-27T14:26:59",
+        "matched_phrases": [
+          "Đau đầu"
+        ]
+      },
+      "queue_number": 1,
+      "room_label": "10",
+      "symptoms": "Đau đầu",
+      "department": "115",
+      "appointment_date": "2026-04-27",
+      "appointment_time": "08:00",
+      "voice_node": {
+        "status": "ready",
+        "source": "web_booking",
+        "queue_number": 1,
+        "topic": "/voice_manager/patient_queue_map",
+        "updated_at": "2026-04-27T14:26:59"
+      }
+    },
+    "1": {
+      "patient_name": "munh",
+      "phone": "1",
+      "updated_at": "2026-06-10T16:03:40",
+      "face_captures": [],
+      "face_capture_count": 0,
+      "latest_capture_at": "",
+      "latest_face_image_url": "",
+      "latest_appointment": {
+        "queue_number": 1,
+        "department": "chuyên khoa Thần kinh",
+        "room_label": "110",
+        "appointment_date": "2026-06-10",
+        "appointment_time": "08:00",
+        "symptoms": "Sốt, đau đầu",
+        "created_at": "2026-06-10T16:03:40",
+        "matched_phrases": [
+          "đau đầu"
+        ]
+      },
+      "queue_number": 1,
+      "room_label": "110",
+      "symptoms": "Sốt, đau đầu",
+      "department": "chuyên khoa Thần kinh",
+      "appointment_date": "2026-06-10",
+      "appointment_time": "08:00",
+      "voice_node": {
+        "status": "ready",
+        "source": "web_booking",
+        "queue_number": 1,
+        "topic": "/voice_manager/patient_queue_map",
+        "updated_at": "2026-06-10T16:03:40"
+      }
+    }
+  }
+}
