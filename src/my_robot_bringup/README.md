@@ -111,13 +111,5 @@ ros2 launch my_robot_bringup nav2.launch.py map:=src/my_robot_bringup/maps/my_ma
 ### 4. Khởi chạy Hệ Thống AI Vision & Hướng Dẫn Giọng Nói
 ```bash
 ros2 launch my_robot_bringup voice_nav_guide.py
-```
 
----
-
-## 👨‍💻 Tác Giả & Liên Hệ (Author)
-
-* **Họ và tên:** [Tên của bạn]
-* **Vị trí ứng tuyển:** Embedded Software Engineer / ROS 2 Robotics Engineer / Autonomous System Developer
-* **LinkedIn:** [Đường dẫn LinkedIn của bạn]
-* **Email:** [Email liên hệ của bạn]
+LƯU Ý :Chạy thực tế chỉ cần launch file AURORA.LAUNCH.PY
