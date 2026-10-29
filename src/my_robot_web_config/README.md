@@ -111,12 +111,3 @@ python app.py
 ```bash
 python demo_driver.py
 ```
-
----
-
-## 👨‍💻 Tác Giả & Liên Hệ (Author)
-
-* **Họ và tên:** [Tên của bạn]
-* **Vị trí ứng tuyển:** Embedded / ROS 2 Software Engineer / HRI Developer
-* **LinkedIn:** [Đường dẫn LinkedIn của bạn]
-* **Email:** [Email liên hệ của bạn]
