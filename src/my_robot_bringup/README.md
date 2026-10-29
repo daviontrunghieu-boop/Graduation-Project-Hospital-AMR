@@ -112,4 +112,3 @@ ros2 launch my_robot_bringup nav2.launch.py map:=src/my_robot_bringup/maps/my_ma
 ```bash
 ros2 launch my_robot_bringup voice_nav_guide.py
 
-LƯU Ý :Chạy thực tế chỉ cần launch file AURORA.LAUNCH.PY
