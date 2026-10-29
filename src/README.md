@@ -119,13 +119,3 @@ source install/setup.bash
   cd ~/hospital_robot_ws/src/robot_web_interface
   python app.py
   ```
-
----
-
-## 👨‍💻 Tác Giả & Hồ Sơ Năng Lực (Author Profile)
-
-* **Họ và tên:** [Tên của bạn]
-* **Vị trí định hướng:** **Embedded & Robotics Software Engineer / ROS 2 Developer**
-* **Email:** [Email liên hệ của bạn]
-* **LinkedIn:** [Đường dẫn Profile LinkedIn]
-* **GitHub Portfolio:** [Đường dẫn GitHub của bạn]
